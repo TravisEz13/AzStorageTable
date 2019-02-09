@@ -18,7 +18,7 @@
     Description = 'A module to work with Azure Storage Tables'
 
     # Version number of this module.
-    ModuleVersion = '1.0.2'
+    ModuleVersion = '1.0.3'
 
     # Minimum version of the PowerShell engine required by this module
     PowerShellVersion = '5.1'
@@ -27,7 +27,7 @@
     #ModuleToProcess = ''
 
     # Modules to import as nested modules of the module specified in RootModule/ModuleToProcess
-    RootModule = 'AzStorageTable.psm1'
+    RootModule = 'AzStorageTable.TravisEz13.psm1'
 
     # Modules that must be imported into the global environment prior to importing this module
     RequiredModules = @('Az.Storage',
