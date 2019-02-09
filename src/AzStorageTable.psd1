@@ -35,7 +35,18 @@
                 'Az.Resources')
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = @()
+FunctionsToExport = @(
+    'Add-StorageTableRow'
+    'Get-AzStorageTableRowAll'
+    'Get-AzStorageTableRowByColumnName'
+    'Get-AzStorageTableRowByCustomFilter'
+    'Get-AzStorageTableRowByPartitionKey'
+    'Get-AzStorageTableRowByPartitionKeyRowKey'
+    'Get-AzStorageTableTable'
+    'Remove-AzStorageTableRow'
+    'Test-AzStorageTableEmptyKeys'
+    'Update-AzStorageTableRow'
+)
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = @()
@@ -44,7 +55,7 @@ CmdletsToExport = @()
 VariablesToExport = @()
 
 # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
-AliasesToExport = @()
+AliasesToExport = @('Add-AzStorageTableRow')
 
 
 # Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
